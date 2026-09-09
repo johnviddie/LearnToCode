@@ -1,0 +1,25 @@
+footer {
+
+  padding-top: 10px;
+  background-color: rgb(160, 155, 155);
+  position: absolute;
+  right: 0;
+  left: 0;
+}
+.overall {
+  margin-left: 40px;
+}
+.copy {
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  column-gap: 20px;
+}
+.contact h5 {
+  margin-bottom: 0;
+}
+.contact p {
+  margin-bottom: 0;
+  margin-top: 2px;
+}
+

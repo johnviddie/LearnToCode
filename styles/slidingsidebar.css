@@ -1,0 +1,81 @@
+body {
+  background-color: rgba(10, 3, 3);
+}
+/* sliding side  bar section */
+#menu {
+  display: none;
+}
+.menu-button {
+  font-size: 50px;
+  cursor: pointer;
+  margin-right: 0;
+}
+.sidebar {
+  background: transparent;
+  backdrop-filter: blur(10px);
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  min-height: 100vh;
+  z-index: 100;
+  padding-top: 70px;
+  transition: all 0.7s ease;
+  box-shadow: 10px -9px 10px rgba(65, 58, 58, 0.5);
+}
+@media (max-width: 500px) {
+  .sidebar {
+    width: 200px;
+  }
+  nav a {
+    font-size: 18px;
+  }
+}
+.sidebar label {
+  font-size: 25px;
+  font-family: Arial;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background-color: transparent;
+  width: 30px;
+  text-align: center;
+  border-radius: 15px;
+  transition: all 0.08s ease 0.05s;
+}
+.sidebar label:hover {
+  background: rgb(24, 23, 23);
+  color: grey;
+}
+.sidebar label:active {
+  opacity: 0.3;
+}
+h3 {
+  text-align: left;
+  margin-left: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 20px;
+  font-size: 22px;
+  transition: all 0.2s ease-in-out 0.1s;
+}
+nav a:hover {
+  text-decoration: underline;
+  letter-spacing: 2px;
+}
+#menu:checked ~ .sidebar {
+  left: 0;
+}
+/*sliding side bar ended */
+
+/* header section */

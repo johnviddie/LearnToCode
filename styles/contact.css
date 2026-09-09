@@ -1,0 +1,32 @@
+.qr-code {
+  margin-top: 200px;
+  color: white;
+}
+.qr-code div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.gmail {
+  margin-top: 60px; 
+  display: flex;
+  margin-bottom: 150px;
+}
+.gmail h3 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+p {
+  margin-top: 0;
+  font-size: 20px;
+}
+@media (max-width: 500px) {
+  img {
+    height: 300px;
+  }
+  .gmail h3 {
+    text-align: center;
+  }
+
+}

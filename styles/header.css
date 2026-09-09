@@ -1,0 +1,24 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-items: center;
+  background-color: rgb(14, 243, 14);
+  z-index: 80;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  
+}
+.menu-button {
+   margin-left: 40px;
+   margin-right: 10px;
+}
+.header .jp {
+  font-size: 19px;
+  cursor: pointer;
+}
+.header .jp:hover {
+  text-decoration: underline;
+}
